@@ -22,7 +22,7 @@ public class Variables {
 
 
         }
-        if (operator == null) {
+        if (operator == null || variables.length > 2) {
             System.out.println("не знайдено арифметичних операцій, або їх кількість більша за одну");
             System.exit(0);
         }
